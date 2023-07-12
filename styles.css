@@ -1,0 +1,88 @@
+body {
+    height: 99vh;
+    width: 99vh;
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 5%; 
+    position: relative;
+}
+
+#claims {
+    height: 90%;
+    width: 90%;
+    margin: 46px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+#dots {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+#hLines {
+    height: 90.5%;
+    width: 90.4%;
+    margin: 43.5px;
+    margin-top: 43.5px;
+    margin-left: 45.5;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+#vLines {
+    height: 90%;
+    width: 100%;
+    margin: 43.5px;
+    margin-top: 45.5px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.hLine {
+    height: .8%;
+    width: 94.2;
+    margin-bottom: 87.1px;
+}
+
+.vLine {
+    height: 94;
+    width: .8%;
+    margin-right: 86.5px;
+}
+
+.dot {
+    height: .8%;
+    width: .8%;
+    background-color: black;
+    border-radius: 50%;
+    margin: 4.6%;
+}
+
+.claim {
+    height: 90;
+    width: 90;
+    margin: 2;
+}
+
+@keyframes blink {
+    0% {
+     background-color: black;
+    }
+    50% {
+     background-color: white;
+    }
+    100% {
+        background-color: black;
+    }
+}
